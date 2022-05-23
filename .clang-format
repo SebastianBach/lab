@@ -1,0 +1,54 @@
+
+---
+Language:        Cpp
+
+
+ColumnLimit:     100
+TabWidth:        4
+IndentWidth:   4
+UseTab:          Never
+
+SortIncludes:    true
+
+AccessModifierOffset: -4
+MaxEmptyLinesToKeep: 1
+AlignConsecutiveAssignments: true
+
+BreakBeforeBraces: Attach
+BraceWrapping:   
+ AfterClass:      false
+ AfterControlStatement: true 
+ AfterEnum:       true 
+ AfterFunction:   true 
+ AfterNamespace:  true 
+ AfterObjCDeclaration: true 
+ AfterStruct:     true 
+ AfterUnion:      true 
+ AfterExternBlock: true 
+ BeforeCatch:     true 
+ BeforeElse:      true 
+ IndentBraces:    true
+ BeforeLambdaBody: true
+ SplitEmptyFunction: true
+
+AllowShortFunctionsOnASingleLine: None 
+
+SpacesInAngles:  false
+SpacesInContainerLiterals: true
+SpacesInCStyleCastParentheses: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatements
+SpaceBeforeCpp11BracedList: true
+
+
+BinPackArguments: false
+BinPackParameters: false
+
+PointerAlignment: Left
+
+NamespaceIndentation: All
+---
+
